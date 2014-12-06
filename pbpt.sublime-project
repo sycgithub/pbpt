@@ -18,6 +18,7 @@
                 "$project_path/protoc-2.6.1-win32/protoc",
                 "-I$project_path/protos",
                 "--java_out=$project_path/generated/java",
+                "--cpp_out=$project_path/generated/cpp",
                 "$file"
             ],
             "selector": "source.proto"
